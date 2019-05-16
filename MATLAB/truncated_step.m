@@ -1,0 +1,10 @@
+clear all;
+close all;
+clc;
+N=10;
+n=-N:1:N;
+y=[zeros(1,N),ones(1,1),zeros(1,N)];
+stem(n,y);
+ylabel('amplitude');
+xlabel('number of samples--->');
+title('discrete unit impulse signal');
