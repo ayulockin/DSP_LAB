@@ -1,0 +1,11 @@
+clear all;
+close all;
+clc;
+N=5;
+n=-N:1:N;
+a = input('Enter a: ');
+y= a.^n;
+stem(n,y);
+ylabel('amplitude');
+xlabel('number of samples--->');
+title('discrete exponential signal');

@@ -1,0 +1,10 @@
+clear all;
+close all;
+clc;
+N=10;
+n=-N:1:N;
+y=n;
+stem(n,y);
+ylabel('amplitude');
+xlabel('number of samples--->');
+title('discrete ramp signal');
